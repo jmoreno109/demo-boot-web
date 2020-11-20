@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body>
+	<ul>
+		<li><a
+			th:href="@{/params/string(nombre='diego',apellido='santos')}">usuario1</a>
+		</li>
+		<li><a
+			th:href="@{/params/string(nombre='carlos',apellido='santos',correo='carlos@correo.com')}">usuario2</a>
+		</li>
+	</ul>
+</body>
+</html>
